@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node --harmony `which gulp`",
     "test": "node --harmony `which gulp` test-once"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "koa": "^0.14.0",
+    "koa-bodyparser": "^1.3.0",
     "koa-logger": "^1.2.2",
     "koa-router": "^2.4.0"
   },
