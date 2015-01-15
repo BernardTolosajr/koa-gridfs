@@ -1,0 +1,25 @@
+{
+  "name": "store-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony `which gulp` test-once"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^0.14.0",
+    "koa-logger": "^1.2.2",
+    "koa-router": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "co-supertest": "0.0.7",
+    "gulp": "^3.8.10",
+    "gulp-exit": "0.0.2",
+    "gulp-mocha-co": "^0.4.1-co.3",
+    "gulp-nodemon": "^1.0.5",
+    "supertest": "^0.15.0"
+  }
+}
