@@ -4,7 +4,6 @@ exports.index = function *() {
 
 exports.create = function *() {
   var object =this.request.body;
-  console.log(object);
   object.created_at = new Date;
   this.status = 201;
   this.body = object;
